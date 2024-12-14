@@ -219,7 +219,7 @@ int main() {
             std::cout << "Ingrese el nombre del archivo descomprimido de salida: ";
             std::cin >> decompressedFileName;
             decompressFile(compressedFileName, decompressedFileName);
-        } else if (choice == 3) {1
+        } else if (choice == 3) {
             std::cout << "Saliendo..." << std::endl;
             break;
         } else {
