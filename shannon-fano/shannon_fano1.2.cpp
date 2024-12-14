@@ -199,6 +199,7 @@ int main() {
 
     while (true) {
         std::cout << "\n--- Menu ---" << std::endl;
+        std::cout <<"\n !Importante: \n La extension del archivo a comprimir\n debe ser '.txt'\n y la extension del archivo de salidad\npuede ser .sf o .compressed\n"<<std::endl;
         std::cout << "1. Comprimir archivo" << std::endl;
         std::cout << "2. Descomprimir archivo" << std::endl;
         std::cout << "3. Salir" << std::endl;
