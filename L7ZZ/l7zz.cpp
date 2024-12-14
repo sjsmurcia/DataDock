@@ -154,6 +154,11 @@ void decompressFile(const std::string& compressedFileName, const std::string& de
 }
 
 int main() {
+
+    system("chcp 65001");
+
+    // Configurar el entorno para mostrar caracteres especiales
+    setlocale(LC_ALL, "es_ES.UTF-8");
     std::string inputFileName;
     std::string compressedFileName;
     std::string decompressedFileName;

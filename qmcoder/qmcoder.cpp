@@ -53,7 +53,7 @@ public:
 
         double encodedValue = (low + high) / 2;
         std::ostringstream oss;
-        oss << std::setprecision(16) << encodedValue; // High precision
+        oss << std::setprecision(16) << encodedValue; // Alta precisión
         return {oss.str(), probabilities};
     }
 
